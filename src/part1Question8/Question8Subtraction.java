@@ -1,4 +1,4 @@
-package part1;
+package part1Question8;
 
 public class Question8Subtraction {
 	void subtraction(int num1,int num2) {
