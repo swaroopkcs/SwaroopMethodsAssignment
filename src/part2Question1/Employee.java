@@ -24,11 +24,11 @@ public class Employee {
 		System.out.print("Please enter the new first name for the employee: ");
 		String newFirstName = sc.next();
 		eFirstName.setEmplName(newFirstName);
-		String NewFName = eFirstName.getEmployeeName();
+		String newFName = eFirstName.getEmployeeName();
 		System.out.print("Please enter the new last name for the employee: ");
 		String newLastName = sc.next();
 		employeeLastName.setEmplName(newLastName);
-		String NewLName = employeeLastName.getEmployeeLastName();
+		String newLName = employeeLastName.getEmployeeLastName();
 		System.out.print("Please enter the new hourly for the employee: ");
 		double newRate = sc.nextDouble();
 		eHourlyRate.sethourlyRate(newRate);;
@@ -36,7 +36,7 @@ public class Employee {
 		System.out.println("Please enter the hours that the employee worked this week: ");
 		double hours = sc.nextDouble();
 		WeeklySalary weeklySalary = new WeeklySalary();
-		System.out.println("The updated name of the Employee is: "+NewFName+" "+NewLName);
+		System.out.println("The updated name of the Employee is: "+newFName+" "+newLName);
 		System.out.println("The new hourly pay for the employee is: "+ newHRate);
 		weeklySalary.weeklySalary(newHRate, hours);
 	}
