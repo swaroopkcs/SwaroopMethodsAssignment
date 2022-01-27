@@ -11,7 +11,6 @@ public class ProductMain {
 		productDetails.printProductName(nameofProduct);
 		productDetails.printDescription(productDescription);
 		productDetails.printPriceOfProduct(price);
-
 	}
 
 }
