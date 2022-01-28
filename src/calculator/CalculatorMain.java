@@ -6,7 +6,7 @@ public class CalculatorMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner sc = new Scanner (System.in);
+		Scanner sc = new Scanner(System.in);
 		String continueChoice = "";
 		CalculatorOperations cOperations = new CalculatorOperations();
 		double finalResult = 0.0;
@@ -31,10 +31,10 @@ public class CalculatorMain {
 			case "/":
 				finalResult = cOperations.divideNumbers(number1, number2);
 				break;
-				default:
-					System.out.println("Please enter a valid operation: ");
+			default:
+				System.out.println("Please enter a valid operation: ");
 			}
-			System.out.println("The result of the operation is: "+finalResult);
+			System.out.println("The result of the operation is: " + finalResult);
 			System.out.println("Please press Y to continue using the calculator. Press anywhere else to exit.");
 			continueChoice = sc.next();
 		} while (continueChoice.equals("Y"));
