@@ -37,7 +37,7 @@ public class CalculatorMain {
 			System.out.println("The result of the operation is: " + finalResult);
 			System.out.println("Please press Y to continue using the calculator. Press anywhere else to exit.");
 			continueChoice = sc.next();
-		} while (continueChoice.equals("Y"));
+		} while (continueChoice.equals("Y")||continueChoice.equals("y"));
 		System.out.println("Thank you for using the calculator");
 		sc.close();
 	}
